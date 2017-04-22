@@ -1,3 +1,7 @@
 {
-  "extends": "airbnb"
+  "extends": "airbnb",
+  "rules": {
+    "no-unexpected-multiline": 2,
+    "linebreak-style": [2, "windows"]
+  }
 }
