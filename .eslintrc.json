@@ -1,7 +1,14 @@
 {
   "extends": "airbnb",
+  "plugins": [
+    "compat"
+  ],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "no-unexpected-multiline": 2,
+    "compat/compat": 2,
     "linebreak-style": [2, "windows"]
   }
 }
